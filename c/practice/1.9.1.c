@@ -11,9 +11,9 @@ main() {
 			if(lastc!=' '){
 				putchar(c);	
 			}
-			lastc = c;
 		}else {
 			putchar(c);
 		}
+		lastc = c;
 	}
 }
